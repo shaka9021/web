@@ -1,0 +1,496 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	width: 100%;
+	background: rgba(0,0,0,.20);
+	height: 80px;
+	position: fixed;	
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.705);
+
+}
+.ancho{
+	width: 80%;
+	/*background: red;*/
+	height: 70px;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10PX;
+	box-sizing: border-box;
+	text-align: center;
+}
+.logo p a{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: rale;
+	vertical-align: middle;
+}
+
+nav{
+	display: right;
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+nav ul li {
+	display:initial;
+	
+	
+}
+nav ul li a{
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: rale;
+	
+}
+
+
+
+nav ul li a:hover{
+	color: rgb(37, 165, 69);}
+
+@font-face{
+	font-family: rale;
+	src: url(fuentes/Raleway-Regular.ttf);
+}
+
+#particles-js{
+	background: url(imagenes/f-1.jpg);
+	background-repeat: no-repeat; /*No se repetira*/
+	background-size: cover;/*imagen 100% del ancho*/
+	background-position: center;
+	background-attachment: contain;
+	background-color: rgba(255,255,255,.5)
+
+}
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #FBFBEF;
+	z-index: 1;
+	}
+
+	.letras-slider{
+		width: 80%;
+		margin: auto;
+	}
+	.letras-slider h1{
+		color: #fff;
+		font-family: rale;
+		font-size: 70px;
+		text-align: right;
+	
+	}
+	
+	.letras-slider p{
+		color: #fff;
+		font-family: rale;
+		font-size: 20px;
+		padding-top: 50px;
+		text-align: justify;
+	
+	}
+	.contact-email {
+	font-family: Josefin Sans, sans-serif;
+		font-size: 20px;
+		line-height: 1.5;
+		padding-top: 20px;
+		font-weight: normal;
+		color: #777;
+		text-align: justify;
+
+	}
+	
+	@import 'https://fonts.googleapis.com/css?family=Josefin+Sans';
+
+
+	
+	
+	
+	
+	h1, h2, h4, h5, h6 {
+		text-transform: uppercase;
+		color: #444;
+		font-family: rele;
+	}
+	h2{
+		font-size: 26px;
+		color: #333;
+		text-align: center;
+	}
+
+	h3{
+		font-family: Josefin Sans, sans-serif;
+		font-size: 20px;
+		line-height: 1.5;
+		padding-top: 20px;
+		font-weight: normal;
+		color: #777;
+		text-align: justify;
+		
+	
+
+	}
+
+	h4{
+		margin-top: 15px;
+		font-size: 16px;
+		font-weight: normal;
+		padding: 10px 0;
+		font-size: 12px;
+	}
+	h5{
+		font-family: Josefin Sans, sans-serif;
+		line-height: 1.5;
+	}
+
+	p{
+		color:#333;
+		font-family: Josefin Sans, sans-serif;
+		
+
+	}
+	.wap{
+		width: 90%;
+		margin: auto;
+		
+	}
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+	padding-top:50px;
+
+}
+.HISTORIA h2{ 
+	padding-top: 50PX;
+	
+}
+
+
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px; 
+
+}
+.columnax3{
+	width: 33.333%;
+	float: 	left;	
+	text-align: left;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	margin: auto;
+
+}
+.columnax3 imagen.img{
+	width: 100%;
+}
+
+.banner-1 {
+	width: 100%;
+	background: rgb(246, 252, 251);
+	clear: both;
+	padding-top: 0PX;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+/*.banner-1:hover{
+    background: #444;
+	
+}
+.banner-1 h3{
+    color: #fff;
+    font-size: 32PX;
+}
+.banner-1 a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}*/
+.i{
+	height: 64px;
+	width: 64px;
+	float: left;
+	padding-right: 20px;
+}
+ .columnax3 h4{
+	 padding-bottom: 10px;
+	 font-size: 20px;
+	 font-weight: bold;
+	  }
+.columnax3 p{
+	text-align: justify;
+}
+.banner-2{
+
+	margin-top: 0px;
+	background: url(imagenes/b-3.jpg);
+	float: left;
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat; /*No se repetira*/
+	background-size: cover;/*imagen 100% del ancho*/
+	background-attachment: fixed;/*Posicion fija para la imagen*/	
+	text-align: center;
+}
+
+.banner-2 h3{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+    font-size: 32PX;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 6%;
+	margin-block-start: 0px;
+}
+
+.banner-1 a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.red{
+	position: fixed;
+	top: 200px;
+	z-index: 100;
+	left: 0;	
+}
+
+#facebook a{
+	background: #3b5998;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 45px;
+}
+#facebook a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#youtube a{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 45px;
+}
+#youtube a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+
+
+#twitter a{
+	background: #55acee;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 45px;
+}
+
+#twitter a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#correo a{
+	background: #dd4b39;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 45px;
+}
+#correo a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+
+.formulario{
+	float: right;
+	margin: 0 auto;
+	color: #999;
+	width: 100%;
+}
+.caja-1{
+	width: 500px;
+	height: 50px;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.formulario h4{
+	font-size: 20px;
+	text-align: center;
+	font: bold;
+}
+.caja-2{
+	width: 1012px;
+	height: 100px;
+	margin: 5px;
+	font-size: 14px;
+	padding: 5px;
+}
+.contratar-a{
+	background: #85c34a;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px; 
+	letter-spacing: 1px;
+	width: 1040px;
+	margin: 5px;
+	height: 50PX;
+}
+
+.contratar-a:hover{
+	background: #777;
+}
+
+.bienvenidos h3{
+	margin: 20px;
+}
+
+		
+@media only screen and (max-width:1165px){
+	.off{
+		display: none;
+		
+	}
+	nav ul li a{
+		font-size: 40px;
+	}
+	.caja-2{
+		width: 500px;
+		margin: 20px;
+	}
+	.contratar-a {
+		width:525px;
+	}
+
+
+	.logo p a{
+		font-size: 25px;
+	}
+	.contenedor-columnas{
+		flex-direction: column;
+	}
+	.imagen{
+		width: 100%;
+	
+	}
+	.columnax3{
+		width: 100%;
+
+	}
+}
+
+	
+
+	
+@media only screen and (max-width:867px){
+	.logo p a{
+		font-size: 23px;
+}
+
+
+	
+}
+
+
+@media only screen and (max-width:480px){
+
+nav {
+	padding-top: 14px;
+	padding-right: 14PX;
+}		
+
+nav ul li a{
+	font-size: 25px;
+}
+
+.logo p a {
+		font-size: 10px;	
+	}	
+.red{
+	display: none;
+}
+header{
+	height: 55px;
+}
+.ancho{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.slideInUp{
+	display: none;
+}
+.letras-slider h1{
+	font-size: 35px;
+}
+.imagen{
+	width: 100%;
+
+}
+.columnax3{
+	width: 100%;
+}
+
+.formulario{
+	width: 100%;
+	margin: 0;
+}
+
+.caja-1{
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+}
+.caja-2{
+	width: 250px;
+}
+
+
+
+.contratar-a {
+	width: 270px;
+	
+}
+
+}
